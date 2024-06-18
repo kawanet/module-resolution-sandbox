@@ -1,0 +1,26 @@
+{
+  "name": "module-resolution-sandbox",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "dependencies": {
+    "sha256-uint8array": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.4",
+    "typescript": "^5.4.5",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "npm run tsc-cjs && npm run tsc-esm && npm run webpack-cjs && npm run webpack-esm",
+    "tsc-cjs": "tsc -p ts-cjs/tsconfig.json",
+    "tsc-esm": "tsc -p ts-esm/tsconfig.json",
+    "webpack-cjs": "webpack -c js-cjs/webpack.config.cjs",
+    "webpack-esm": "webpack -c js-esm/webpack.config.mjs"
+  }
+}

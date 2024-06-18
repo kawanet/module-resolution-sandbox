@@ -1,0 +1,16 @@
+*.js
+*.tgz
+*~
+.DS_Store
+.Thumbs
+._*
+.idea/
+.nyc_output/
+.vscode/
+Thumbs.db
+dist/
+logs/
+node_modules/
+package-lock.json
+tmp/
+~$*

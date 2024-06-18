@@ -1,0 +1,13 @@
+{
+  "include": [
+    "."
+  ],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node10",
+    "outDir": "../dist/node10/",
+    "removeComments": false,
+    "skipLibCheck": false,
+    "target": "ES6"
+  }
+}

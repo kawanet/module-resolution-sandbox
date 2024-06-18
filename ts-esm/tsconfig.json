@@ -1,0 +1,13 @@
+{
+  "include": [
+    "."
+  ],
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "../dist/nodenext/",
+    "removeComments": false,
+    "skipLibCheck": false,
+    "target": "ESNext"
+  }
+}
